@@ -14,7 +14,6 @@ main(List<String> args) {
   final a2 = '1111';
   const a3 = '2222';
 
-
   // final用于的更多一点
   // p1和p2是不是同一个对象
   // final p1 = Person("why");
@@ -26,6 +25,7 @@ main(List<String> args) {
   const p2 = const Person("why");
   const p3 = const Person("lilei");
 
+  //判断p1 p2 是否是相同的
   print(identical(p1, p2));
   print(identical(p2, p3));
 }
