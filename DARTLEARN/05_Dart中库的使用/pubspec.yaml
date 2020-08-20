@@ -1,0 +1,6 @@
+
+name: codezyf
+description: a dart library
+dependencies:
+  http: ^0.12.2
+         
